@@ -1,0 +1,10 @@
+package your-namespace:greet;
+
+interface sayable {
+    say: func () -> string;
+}
+
+world hello-world {
+    import greetable;
+    export sayable;
+}

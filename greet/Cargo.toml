@@ -17,6 +17,9 @@ strip = true
 lto = true
 
 [package.metadata.component]
-package = "component:greet"
+package = "your-namespace:greet-impl"
+
+[package.metadata.component.target]
+world = "greetable-provider"
 
 [package.metadata.component.dependencies]
